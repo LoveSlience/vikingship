@@ -1,0 +1,39 @@
+/* 系统色板 */
+// 中性色
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+// 基础色
+$blue: #0d6efd !default; // 蓝色
+$indigo: #6610f2 !default; // 靛蓝色
+$purple: #6f42c1 !default; // 紫色
+$pink: #d63384 !default; // 粉色
+$red: #dc3545 !default; // 红色
+$orange: #fd7e14 !default; // 桔色
+$yellow: #fadb14 !default; // 黄色
+$green: #52c41a !default; // 绿色
+$teal: #20c997 !default; // 蓝绿色
+$cyan: #17a2b8 !default; // 青色
+
+/* 产品色板 */
+
+// 主色
+$primarny: $blue !default;
+$secondary: $gray-600 !default;
+
+// 功能色
+$success: $green !default;
+$info: $cyan !default;
+$warnning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
