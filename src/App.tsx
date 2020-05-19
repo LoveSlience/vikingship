@@ -5,7 +5,15 @@ function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <Button>Hello</Button>
+        <Button
+          autoFocus
+          onClick={(e) => {
+            e.preventDefault()
+            alert(123)
+          }}
+        >
+          Hello
+        </Button>
         <Button disabled>Disabled Button</Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
           Large Primary
