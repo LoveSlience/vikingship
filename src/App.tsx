@@ -17,7 +17,7 @@ function App() {
           <MenuItem index={1} disabled>
             cool link 2
           </MenuItem>
-          <MenuItem index={3}>cool link 3</MenuItem>
+          <MenuItem index={2}>cool link 3</MenuItem>
         </Menu>
       </header>
     </div>
