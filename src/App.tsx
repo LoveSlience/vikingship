@@ -7,6 +7,7 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <Menu
+          mode='vertical'
           defaultIndex={0}
           onSelect={(index) => {
             console.log('index: ', index)
