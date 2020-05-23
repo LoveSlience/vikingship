@@ -8,8 +8,9 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <Menu
-          mode='horizontal'
-          defaultIndex={0}
+          mode='vertical'
+          defaultOpenSubMenus={['2']}
+          defaultIndex={'0'}
           onSelect={(index) => {
             console.log('index: ', index)
           }}
