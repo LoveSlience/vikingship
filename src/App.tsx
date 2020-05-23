@@ -12,11 +12,11 @@ library.add(fas)
 function App() {
   return (
     <div className='App'>
-      <FontAwesomeIcon icon={faCoffee} size='10x' />
-      <Icon icon='arrow-down' theme='primary' size='10x' />
+      <FontAwesomeIcon icon={faCoffee} size='1x' />
+      <Icon icon='arrow-down' theme='primary' size='1x' />
       <header className='App-header'>
         <Menu
-          mode='vertical'
+          mode='horizontal'
           defaultOpenSubMenus={['2']}
           defaultIndex={'0'}
           onSelect={(index) => {
