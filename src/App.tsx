@@ -1,14 +1,19 @@
 import React from 'react'
+import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, fas } from '@fortawesome/free-solid-svg-icons'
 import Menu from './components/menu/menu'
 import MenuItem from './components/menu/menuItem'
 import SubMenu from './components/menu/subMenu'
+import Icon from './components/Icon/icon'
+
+library.add(fas)
 
 function App() {
   return (
     <div className='App'>
       <FontAwesomeIcon icon={faCoffee} size='10x' />
+      <Icon icon='arrow-down' theme='danger' size='10x' />
       <header className='App-header'>
         <Menu
           mode='vertical'
