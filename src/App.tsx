@@ -13,7 +13,7 @@ function App() {
   return (
     <div className='App'>
       <FontAwesomeIcon icon={faCoffee} size='10x' />
-      <Icon icon='arrow-down' theme='danger' size='10x' />
+      <Icon icon='arrow-down' theme='primary' size='10x' />
       <header className='App-header'>
         <Menu
           mode='vertical'
