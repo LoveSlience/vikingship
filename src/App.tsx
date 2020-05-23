@@ -1,23 +1,27 @@
 import React from 'react'
 import Menu from './components/menu/menu'
 import MenuItem from './components/menu/menuItem'
+import SubMenu from './components/menu/subMenu'
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
         <Menu
-          mode='vertical'
+          mode='horizontal'
           defaultIndex={0}
           onSelect={(index) => {
             console.log('index: ', index)
           }}
         >
-          <MenuItem index={0}>cool link 1</MenuItem>
-          <MenuItem index={1} disabled>
-            cool link 2
-          </MenuItem>
-          <MenuItem index={2}>cool link 3</MenuItem>
+          <MenuItem>cool link 1</MenuItem>
+          <MenuItem disabled>cool link 2</MenuItem>
+          <SubMenu title='dropdown'>
+            <MenuItem>dropdown 1</MenuItem>
+            <MenuItem>dropdown 2</MenuItem>
+            <MenuItem>dropdown 3</MenuItem>
+          </SubMenu>
+          <MenuItem>cool link 3</MenuItem>
         </Menu>
       </header>
     </div>
